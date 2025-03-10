@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { getPizzasCatalog } from '../../../core/api/requests/getPizzasCatalog';
-import { Pizza } from '@/@types/interfacesPizzas';
+import { useEffect, useState } from 'react';
+import { getPizzasCatalog } from '../../utils/api/requests/getPizzasCatalog';
 import PizzaCard from './PizzaCard';
+import { Pizza } from 'utils/types/interfacesPizzas';
 
-const MainPage: React.FC = () => {
+const MainPage = () => {
   const [pizzas, setPizzas] = useState<Pizza[]>([]);
 
   useEffect(() => {

@@ -1,8 +1,7 @@
 import Header from "./components/Header/Header"
-import MainPage from "./components/pages/MainPage/MainPage"
+import MainPage from "./pages/MainPage/MainPage"
 
-function App() {
-
+const App = () => {
   return (
     <>
       <Header />

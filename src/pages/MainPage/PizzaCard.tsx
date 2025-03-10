@@ -1,5 +1,5 @@
-import { Pizza } from '@/@types/interfacesPizzas';
 import React from 'react';
+import { Pizza } from 'utils/types/interfacesPizzas';
 
 interface PizzaCardProps {
   pizza: Pizza;
